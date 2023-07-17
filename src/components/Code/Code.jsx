@@ -16,7 +16,7 @@ const Code = () => {
     <Container>
       <Editor bg="#FF3C41" icon="/" heading="HTML" value={html}  onChange={setHtml}/>
       <Editor bg="#0EBEFF" icon="*" heading="CSS"  value={css}  onChange={setCss} />
-      <Editor bg="#FCD000" icon="()" heading="Javascript"  value={js}  onChange={setJs} />
+      <Editor bg="#FCD000" icon="()" heading="JS"  value={js}  onChange={setJs} />
     </Container>
   );
 };
